@@ -14,10 +14,6 @@ public class Apotheke {
         medicationMap.put(medication.getName(), medication);
     }
 
-    public Medication getMedication(String name) {
-        return medicationMap.get(name);
-    }
-
         public int getCount() {
             return medicationMap.size();
         }
