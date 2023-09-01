@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Anzahl der Medication in der Apotheke: " + count);
 
         Medication med3 = new Medication("Ibuprofen", 7.99, 75);
-        apotheke.save(med3);
+        apotheke.addMedication(med3);
 
         Medication foundMedication = apotheke.find("Aspirin");
         if (foundMedication != null) {
