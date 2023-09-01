@@ -10,6 +10,7 @@ public class Main {
         apotheke.addMedication(med1);
         apotheke.addMedication(med2);
 
+
         int count = apotheke.getCount();
         System.out.println("Anzahl der Medication in der Apotheke: " + count);
 
