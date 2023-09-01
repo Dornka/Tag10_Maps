@@ -18,13 +18,6 @@ public class Apotheke {
         return medicationMap.get(name);
     }
 
-    public void updateAvailability(String name, int newAvailability) {
-        Medication medication = medicationMap.get(name);
-        if (medication != null) {
-            medication.availability = newAvailability;
-        }
-    }
-
         public int getCount() {
             return medicationMap.size();
         }
